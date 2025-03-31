@@ -23,7 +23,7 @@ To simulate a lighter model (as per Assignment 4), one convolution block was rem
 | CosineAnnealingLR | **91.93%** ✅ |
 
 ## 📈 Training Loss Comparison
-![Training Loss](imgs/loss_plot_comparison.png)
+![Training Loss](imgs/results.PNG)
 
 ## 🧠 Conclusion
 > All schedulers slightly improved training. **CosineAnnealingLR** achieved the best accuracy, likely due to smoother LR decay that avoids overfitting in early epochs.
@@ -43,13 +43,13 @@ jupyter notebook
 ## 📷 Sample Outputs
 
 **No Scheduler**
-![Baseline](imgs/loss_baseline.png)
+![Baseline](imgs/loss_baseline.PNG)
 
 **With ExponentialLR**
-![ExponentialLR](imgs/loss_exponentiallr.png)
+![ExponentialLR](imgs/loss_exponentiallr.PNG)
 
 **With MultiStepLR**
-![MultiStepLR](imgs/loss_multisteplr.png)
+![MultiStepLR](imgs/loss_multisteplr.PNG)
 
 **With CosineAnnealingLR**
-![CosineAnnealingLR](imgs/loss_cosineannealinglr.png)
+![CosineAnnealingLR](imgs/loss_cosineannealinglr.PNG)
